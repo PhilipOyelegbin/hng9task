@@ -1,70 +1,114 @@
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+*, ::before, ::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background: #FFFFFF;
+  line-height: 1.5;
+  font-size: 14px;
   font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+main {
+  padding: 0 32px;
+  width: 1216px;
+  margin: auto;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+img {
+  width: 88px;
+  height: 88px;
+  border-radius: 275px;
+  margin-bottom: 24px;
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #101828;
+  margin-bottom: 56px;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+p {
+  font-size: 16px;
 }
 
-button {
+footer {
+  padding: 48px 0;
+}
+
+footer > div {
+  width: 1280px;
+  border-top: 1px solid #EAECF0;
+  margin: auto;
+}
+
+.unseen {
+  display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  background: #EAECF0;
+  color: #101828;
+  text-align: center;
+  padding: 24px 32px;
+  width: 1152px;
+  height: 76px;
+  margin: 24px auto;
+  border: 1px solid #EAECF0;
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 18px;
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+.btn:hover {
+  outline: #475467 solid 1px;
+}
+
+.btn:active {
+  background: #475467;
+}
+
+.social {
+  margin: 24px auto 64px auto;
+  padding: 24px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  /* align-items: center; */
+  padding: 32px 32px 0;
+  width: 1216px;
+  height: 64px;
+  gap: 32px;
+  margin: auto;
+}
+
+.zuri-internship {
+  height: 32px;
+  width: 185px;
+  border-radius: 0;
+}
+
+.i4g {
+  height: 32px;
+  width: 132px;
+  border-radius: 0;
+}
+
+
+
+@media (min-width: 768px) {
+  main {
+    padding: 12px 40px;
   }
 }
