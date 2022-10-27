@@ -7,7 +7,7 @@ const Profile = () => {
     <section className="profile-section center">
       <img src={dots} className="dot-icon"/>
       <img src={right} className="right-icon"/>
-      <img src={profile} id="profile__img" alt="image of the account owner" />
+      <img src={profile} id="profile__img" className='profile-image' alt="image of the account owner" />
       <div>
         <a href="https://mobile.twitter.com/OyelegbinPhilip" id="twitter" target="_blank" rel="noopener noreferrer">@OyelegbinPhilip</a>
 
