@@ -6,7 +6,7 @@ import Social from "./components/Social"
 function App() {
   return (
     <>
-      <main className="container">
+      <main>
         <Profile/>
         <Links/>
       </main>

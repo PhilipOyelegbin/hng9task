@@ -7,7 +7,7 @@ const Links = () => {
     {id: "book__design", label: "Design Books", links: "https://books.zuri.team/design-rules"}
   ]
   return (
-    <section>
+    <section className="link-section">
       {btnLinks && btnLinks?.map(obj => {
         return (
           <a href={obj.links} id={obj.id} className="btn" target="_blank" rel="noopener noreferrer" key={obj.id}>{obj.label}</a>
