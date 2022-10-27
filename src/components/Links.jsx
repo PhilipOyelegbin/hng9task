@@ -1,5 +1,6 @@
 const Links = () => {
   const btnLinks = [
+    {id: "twitter", label: "Twitter Link", links: "https://mobile.twitter.com/OyelegbinPhilip"},
     {id: "btn__zuri", label: "Zuri Team", links: "https://training.zuri.team/"},
     {id: "books", label: "Zuri Books", links: "http://books.zuri.team"},
     {id: "book__python", label: "Python Books", links: "https://books.zuri.team/python-for-beginners?ref_id=PhilipOyelegbin"},
