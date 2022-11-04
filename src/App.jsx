@@ -1,17 +1,17 @@
-import Links from "./components/Links"
-import Profile from "./components/Profile"
-import Footer from "./components/Footer"
-import Social from "./components/Social"
+import { Route, Routes } from "react-router"
+import Home from "./pages/profile/Home"
+import Contact from "./pages/contact/Contact"
+import SharedLayout from "./components/SharedLayout"
 
 function App() {
   return (
     <>
-      <main>
-        <Profile/>
-        <Links/>
-      </main>
-      <Social/>
-      <Footer/>
+      <Routes>
+        <Route path='/' element={<SharedLayout/>}>
+          <Route index element={<Home/>}/>
+          <Route path="contact" element={<Contact/>}/>
+        </Route>
+      </Routes>
     </>
   )
 }

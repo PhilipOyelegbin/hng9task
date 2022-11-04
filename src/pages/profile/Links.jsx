@@ -1,3 +1,5 @@
+import { useNavigate } from 'react-router-dom';
+
 const Links = () => {
   const btnLinks = [
     {id: "twitter", label: "Twitter Link", links: "https://mobile.twitter.com/OyelegbinPhilip"},
@@ -7,6 +9,11 @@ const Links = () => {
     {id: "pitch", label: "Background Check for Coders", links: "https://backgroundcheck.zuri.team"},
     {id: "book__design", label: "Design Books", links: "https://books.zuri.team/design-rules"}
   ]
+
+  const navigate = useNavigate();
+  const handleContactClick = () => {
+    navigate("/contact")
+  }
   return (
     <section className="link-section">
       {btnLinks && btnLinks?.map(obj => {
@@ -14,6 +21,7 @@ const Links = () => {
           <a href={obj.links} id={obj.id} className="btn" target="_blank" rel="noopener noreferrer" key={obj.id}>{obj.label}</a>
         )}
       )}
+      <a onClick={handleContactClick} className="btn">Contact Me</a>
     </section>
   )
 }

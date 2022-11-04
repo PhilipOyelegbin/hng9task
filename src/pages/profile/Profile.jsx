@@ -1,6 +1,6 @@
-import profile from '../assets/profile.png';
-import right from '../assets/share-06.svg';
-import dots from '../assets/dots-horizontal.svg';
+import profile from '../../assets/profile.png';
+import right from '../../assets/share-06.svg';
+import dots from '../../assets/dots-horizontal.svg';
 
 const Profile = () => {
   return (

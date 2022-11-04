@@ -1,5 +1,5 @@
 import {FaGithub} from 'react-icons/fa';
-import slack from '../assets/slack.svg'
+import slack from '../../assets/slack.svg'
 
 const Social = () => {
   return (
