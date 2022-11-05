@@ -1,12 +1,14 @@
 import { Inputfield, Multitextfield } from './Forminput'
 
 const Contact = () => {
+  const name = "Philip Oyelegbin";
+
   return (
     <main>
       <div className="container">
         <h4>Contact Me</h4>
         <p>Hi there, contact me to ask me about anything you have in mind.</p>
-        <form action="">
+        <form>
             <div className='grouped-input'>
                 <Inputfield text="first_name" label="First name" placeholder="Enter your first name"/>
                 <Inputfield text="last_name" label="Last name" placeholder="Enter your last name"/>

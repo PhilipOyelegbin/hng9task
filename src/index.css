@@ -179,6 +179,10 @@ footer {
   align-items: baseline;
   gap: 12px;
 }
+.agreement > label {
+  font-size: 16px;
+  font-weight: 400;
+}
 
 .form-group {
   display: flex;
