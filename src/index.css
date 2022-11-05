@@ -4,6 +4,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   background: #FFFFFF;
+  color: #475467;
   line-height: 1.5;
   font-size: 14px;
   font-weight: 400;
@@ -39,6 +40,7 @@ a {
 h4 {
   font-size: 36px;
   font-weight: 600;
+  color: #101828;
 }
 
 p {
@@ -48,6 +50,7 @@ p {
 label {
   font-size: 14px;
   font-weight: 500;
+  color: #344054;
 }
 
 input {
@@ -182,6 +185,7 @@ footer {
 .agreement > label {
   font-size: 16px;
   font-weight: 400;
+  color: #475467;
 }
 
 .form-group {
@@ -204,6 +208,10 @@ footer {
   padding: 32px 0;
   width: 343px;
   gap: 16px;
+}
+
+.footer-content > p {
+  color: #667085;
 }
 
 .zuri-internship {
